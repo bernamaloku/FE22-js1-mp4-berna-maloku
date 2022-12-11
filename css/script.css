@@ -1,0 +1,49 @@
+body{
+  background-color: rgba(144, 238, 144, 0.153);
+ 
+}
+
+.ekg11 {
+  fill: none;
+  stroke: rgb(7, 80, 15);
+  stroke-miterlimit: 3.2;
+  stroke-width: 3.2px;
+}
+
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+  margin: 9rem;
+}
+
+h1,h5{
+  display: flex;
+  justify-content: center;
+  color: #09412b;
+}
+
+
+#play,#pause,#stop{
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#play{
+  color: #046f48;
+  background-color: rgba(0, 128, 0, 0.119);
+}
+
+#pause{
+  color: rgb(159, 107, 10);
+  background-color: rgba(255, 166, 0, 0.241);
+}
+#stop{
+  color: rgb(169, 13, 13);
+  background-color: rgba(255, 0, 0, 0.241);
+}
+
